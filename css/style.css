@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+:root {
+  --button-green: #596d48;
+  --card-bg-color: #f9fafb;
+}
+
+@font-face {
+  font-family: norse;
+  src: url("../Norse-Bold.otf");
+}
+
 body {
   font-family: "Lato";
 }
@@ -67,7 +77,7 @@ body {
 .form-buttons {
   height: 100%;
   padding: 20px;
-  background-color: #f9fafb;
+  background-color: var(--card-bg-color);
 }
 
 .form-inputs {
@@ -105,7 +115,7 @@ body {
   padding: 10px 30px;
   font-weight: bold;
   font-size: 16px;
-  background-color: darkgreen;
+  background-color: var(--button-green);
   color: white;
   border: 0;
   border-radius: 5px;
@@ -115,7 +125,7 @@ a,
 a:visited {
   text-decoration: none;
   font-weight: bold;
-  color: darkgreen;
+  color: var(--button-green);
 }
 
 .form-controls input {
@@ -133,4 +143,22 @@ a:visited {
 .button-container,
 .header-text {
   padding-left: 30px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "norse";
+  font-size: 80px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  width: 430px;
+  height: 150px;
+  top: 80px;
 }

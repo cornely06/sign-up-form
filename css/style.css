@@ -1,7 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .background-img {
   width: 1200px;
 }
 
 .italic {
   font-style: italic;
+}
+
+.form-controls {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.controller-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.form-text,
+.form-controls {
+  padding: 8px 35px;
+}
+
+.form-header,
+.form-buttons {
+  background-color: rgb(232, 233, 233);
 }

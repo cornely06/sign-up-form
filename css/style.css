@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Lato";
+}
+
 .italic {
   font-style: italic;
 }
@@ -29,6 +33,16 @@
 .form-text,
 .form-controls {
   padding: 8px 30px 8px 30px;
+}
+
+.form-controls label {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.form-text {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .main {
@@ -79,6 +93,7 @@
 .header-text {
   margin-bottom: 20px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .submit-button,
@@ -87,7 +102,7 @@
 }
 
 .submit-button {
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-weight: bold;
   font-size: 16px;
   background-color: darkgreen;
@@ -101,4 +116,21 @@ a:visited {
   text-decoration: none;
   font-weight: bold;
   color: darkgreen;
+}
+
+.form-controls input {
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 5px;
+}
+
+.form-controls input:focus {
+  border: 2px solid blue;
+  box-shadow: 2px 2px 3px -3px black;
+  outline: none;
+}
+
+.log-in,
+.button-container,
+.header-text {
+  padding-left: 30px;
 }

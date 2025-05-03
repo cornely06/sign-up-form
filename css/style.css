@@ -10,6 +10,10 @@
   width: 1200px;
 }
 
+.form-container {
+  width: 700px;
+}
+
 .italic {
   font-style: italic;
 }
@@ -17,19 +21,18 @@
 .form-controls {
   display: flex;
   flex-direction: column;
-  width: 220px;
+  width: 250px;
 }
 
 .controller-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 700px;
 }
 
 .form-text,
 .form-controls {
-  padding: 8px 35px;
+  padding: 8px 30px 8px 30px;
 }
 
 .form-header,

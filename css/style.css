@@ -11,7 +11,8 @@
 }
 
 .form-container {
-  width: 700px;
+  width: 650px;
+  background-color: #ffffff;
 }
 
 .italic {
@@ -37,5 +38,31 @@
 
 .form-header,
 .form-buttons {
-  background-color: rgb(232, 233, 233);
+  background-color: #f9fafb;
+}
+
+.main {
+  width: 1080px;
+  height: 720px;
+  margin: 0 auto;
+  background-image: url(../background-img.avif);
+  position: relative;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.form-header,
+.form-buttons {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.form-inputs {
+  padding: 20px;
 }

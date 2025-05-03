@@ -6,17 +6,12 @@
   padding: 0;
 }
 
-.background-img {
-  width: 1200px;
-}
-
-.form-container {
-  width: 650px;
-  background-color: #ffffff;
-}
-
 .italic {
   font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .form-controls {
@@ -36,11 +31,6 @@
   padding: 8px 30px 8px 30px;
 }
 
-.form-header,
-.form-buttons {
-  background-color: #f9fafb;
-}
-
 .main {
   width: 1080px;
   height: 720px;
@@ -55,16 +45,21 @@
   height: 100%;
   position: absolute;
   right: 0;
+  width: 650px;
+  background-color: #ffffff;
 }
 
 .form-header,
 .form-buttons {
-  flex-grow: 1;
+  height: 100%;
   padding: 20px;
+  background-color: #f9fafb;
 }
 
 .form-inputs {
   padding: 20px;
+  box-shadow: 0 4px 4px -4px rgb(170, 170, 170);
+  z-index: 1;
 }
 
 .credit {
@@ -75,6 +70,35 @@
   color: rgb(255, 255, 255);
 }
 
-.underline {
-  text-decoration: underline;
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.header-text {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.submit-button,
+.log-in {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: darkgreen;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgreen;
 }

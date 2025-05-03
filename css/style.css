@@ -129,8 +129,13 @@ a:visited {
 }
 
 .form-controls input {
-  border: 2px solid rgb(221, 221, 221);
+  border: 2px solid #e5e7eb;
   border-radius: 5px;
+  padding: 3px;
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
 }
 
 .form-controls input:focus {

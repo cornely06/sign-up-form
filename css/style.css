@@ -67,11 +67,14 @@
   padding: 20px;
 }
 
-.main::after {
-  content: "Photo by Joshua Earle on Unsplash";
+.credit {
   position: absolute;
   bottom: 10px;
   left: 100px;
   font-size: 14px;
   color: rgb(255, 255, 255);
+}
+
+.underline {
+  text-decoration: underline;
 }

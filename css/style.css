@@ -1,3 +1,7 @@
 .background-img {
   width: 1200px;
 }
+
+.italic {
+  font-style: italic;
+}
